@@ -5,11 +5,23 @@
 One way to analyze acquisition strategy and estimate marketing cost is to calculate the Lifetime Value (“LTV”) of a customer. Simply speaking, LTV is the projected revenue that customer will generate during their lifetime.
 A simple LTV can be calculated using the following equation:52(a) x t. Where a is the average customer value per week (customer expenditures per visit (USD) x number of site visits per week) and t is the average customer lifespan. The average lifespan for Shutterfly is 10 years.
 
-# How to execute the code
+# How to set up the environment and execute code
+    • Using virtual environment
+        •  cd “/path/to/your/project/"
+        •  virtualenv -p python sflyenv
+        •  source sflyenv/bin/activate
+        •  export PYTHONPATH="${PYTHONPATH}:/path/to/your/project/" (in case if you get this error "Python3.6 error: ModuleNotFoundError: No module named 'src'" Please add source to the python path using the command )
+        •  run command python src/ltv_report.py
+        •  for running tests 
+               •   python -m unittest tests/test_ltv_report.py
+               •   python -m unittest tests/test_common_util.py
+                •  python -m unittest tests/test_file_util.py 
 
- 	• Change the “TOP_X_LTV_REPORT” value (currently set to 5) to execute the top X records
-	• Run the src/ltv_report.py file
-	• We should be seeing the output in output/output.txt location
+    • If using pycharm or some IDE
+        •  Run the src/ltv_report.py file
+    
+    •  Change the “TOP_X_LTV_REPORT” value (currently set to 5) to execute the top X records
+    •  We should be seeing the output in output/output.txt location
 
 	
 # Source code Structure

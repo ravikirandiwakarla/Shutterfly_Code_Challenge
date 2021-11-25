@@ -20,7 +20,7 @@ class TestLtvReport(unittest.TestCase):
         max_date = None
 
         # read input file
-        data = read_json_file('test_files/test_good_file.txt')
+        data = read_json_file('tests/test_files/test_good_file.txt')
         for record in data:
             min_date, max_date = ingest(record['type'], record, customers, site_visits, images,
 
