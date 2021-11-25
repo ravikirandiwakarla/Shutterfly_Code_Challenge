@@ -19,7 +19,7 @@ A simple LTV can be calculated using the following equation:52(a) x t. Where a i
 
 [sample_input/events.txt](https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/sample_input/events.txt) : sample data provided by Shutterfly
 
-[src/models](https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/src/models.py ) : customer, image , site_visits and order models exist here
+[src/models.py](https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/src/models.py ) : customer, image , site_visits and order models exist here
 
 [src/constants.py](https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/src/constants.py) : place to store all the constant values
 
