@@ -15,19 +15,19 @@ A simple LTV can be calculated using the following equation:52(a) x t. Where a i
 		•	output/output.txt : test output will be saved
 		•	sample_input/events.txt : sample data provided by Shutterfly
 
-		•	src/models : customer, image , site_visits and order models exist here
-		•	src/constants.py : place to store all the constant values
-		•	src/common_util.py : utility to store common reusable functions
-		•	src/file_util.py :  utilt to store file IO functions
-		•	src/ingest.py : ingestion happens,responsible for ingestion the data into appropriate lists and dictionaries
-		•	src/ltv_report.py : this is the starting point, generate_ltv_report method invokes all the functions to get the
+		•	[src/models](https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/src/models.py ) : customer, image , site_visits and order models exist here
+		•	[src/constants.py](https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/src/constants.py) : place to store all the constant values
+		•	[src/common_util.py] (https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/src/common_util.py) : utility to store common reusable functions
+		•	[src/file_util.py] (https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/src/file_util.py) :  utilt to store file IO functions
+		•	[src/ingest.py](https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/src/ingest.py) : ingestion happens,responsible for ingestion the data into appropriate lists and dictionaries
+		•	[src/ltv_report.py] (https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/src/ltv_report.py) : this is the starting point, generate_ltv_report method invokes all the functions to get the
 			LTV report. Ingest and TopXSimpleLTVCustomers are invoked from generate_ltv_report.
 
-		•	tests/test_files/test_bad_file.txt : bad test file used for testing to test json exceptions
-		•	tests/test_files/test_good_file.txt : good test file used for calculating LTV
-		•	tests/test_common_util.py : has the tests related to common_util.py file
-		•	tests/test_file_util.py : has the tests related to file_util.py file
-		•	tests/test_ltv_report.py : has the tests related to ltv_report.py file
+		•	[tests/test_files/test_bad_file.txt] (https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/tests/test_files/test_bad_file.txt) : bad test file used for testing to test json exceptions
+		•	[tests/test_files/test_good_file.txt] (https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/tests/test_files/test_good_file.txt) : good test file used for calculating LTV
+		•	[tests/test_common_util.py](https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/tests/test_common_util.py) : has the tests related to common_util.py file
+		•	[tests/test_file_util.py](https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/tests/test_file_util.py): has the tests related to file_util.py file
+		•	[tests/test_ltv_report.py](https://github.com/ravikirandiwakarla/Shutterfly_Code_Challenge/blob/master/tests/test_ltv_report.py) : has the tests related to ltv_report.py file
 
 # Design Considerations
 		•	Each event will be ingested in their respective DTO’s list. Image event and most of the fields were not used to calculate the LTV but still stored as the FAQ 	    says we have to still ingest it as it can be useful for future analysis.
