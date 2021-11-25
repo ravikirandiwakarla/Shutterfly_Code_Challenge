@@ -1,0 +1,15 @@
+[{"type": "CUSTOMER", "verb": "NEW", "key": "96f55c7d8f42", "event_time": "2020-01-06T12:46:46.384Z", "last_name": "Smith", "adr_city": "Middletown", "adr_state": "AK"},
+{"type": "SITE_VISIT", "verb": "NEW", "key": "ac05e815502f", "event_time": "2020-01-06T12:45:52.041Z", "customer_id": "96f55c7d8f42", "tags": [{"some key": "some value"}]},
+{"type": "IMAGE", "verb": "UPLOAD", "key": "d8ede43b1d9f", "event_time": "2020-01-06T12:47:12.344Z", "customer_id": "96f55c7d8f42", "camera_make": "Canon", "camera_model": "EOS 80D"},
+{"type": "ORDER", "verb": "NEW", "key": "68d84e5d1a43", "event_time": "2020-01-06T12:55:55.555Z", "customer_id": "96f55c7d8f42", "total_amount": "12.34 USD"},
+{"type": "CUSTOMER", "verb": "NEW", "key": "77f33c7d8f76", "event_time": "2020-12-12T12:46:46.384Z", "last_name": "Russel", "adr_city": "Phoenix", "adr_state": "AZ"},
+{"type": "SITE_VISIT", "verb": "NEW", "key": "i105e815502f", "event_time": "2020-12-12T12:45:52.041Z", "customer_id": "77f33c7d8f76", "tags": [{"some key": "some value"}]},
+{"type": "ORDER", "verb": "NEW", "key": "i1d84e5d1a43", "event_time": "2020-12-12T12:55:55.555Z", "customer_id": "77f33c7d8f76", "total_amount": "19.76 USD"},
+{"type": "SITE_VISIT", "verb": "NEW", "key": "c105e815502f", "event_time": "2020-04-08T12:45:52.041Z", "customer_id": "33f33c7d8f76", "tags": [{"some key": "some value"}]},
+{"type": "IMAGE", "verb": "UPLOAD", "key": "c14de43b1d9f", "event_time": "2020-04-08T12:47:12.344Z", "customer_id": "33f33c7d8f76", "camera_make": "Canon", "camera_model": "EOS 80D"},
+{"type": "ORDER", "verb": "NEW", "key": "c1484e5d1a43", "event_time": "2020-04-08T12:55:55.555Z", "customer_id": "33f33c7d8f76", "total_amount": "21.34 USD"},
+{"type": "CUSTOMER", "verb": "NEW", "key": "33f33c7d8f76", "event_time": "2020-03-20T12:46:46.384Z", "last_name": "Eric", "adr_city": "Phoenix", "adr_state": "AZ"},
+{"type": "SITE_VISIT", "verb": "NEW", "key": "d105e815502f", "event_time": "2020-03-20T12:45:52.041Z", "customer_id": "33f33c7d8f76", "tags": [{"some key": "some value"}]},
+{"type": "IMAGE", "verb": "UPLOAD", "key": "d14de43b1d9f", "event_time": "2020-03-20T12:47:12.344Z", "customer_id": "33f33c7d8f76", "camera_make": "Canon", "camera_model": "EOS 80D"},
+{"type": "ORDER", "verb": "NEW", "key": "d1484e5d1a43", "event_time": "2020-03-20T12:55:55.555Z", "customer_id": "33f33c7d8f76", "total_amount": "18.94 USD"}]
+

@@ -1,0 +1,5 @@
+Customer Id: 33f33c7d8f76         LTV: 427.46 
+Customer Id: 22f33c7d8f76         LTV: 385.86 
+Customer Id: 44f33c7d8f76         LTV: 330.78 
+Customer Id: 11f55c7d8f42         LTV: 229.54 
+Customer Id: 77f33c7d8f76         LTV: 209.7 
